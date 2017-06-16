@@ -1,0 +1,22 @@
+House
+-------------
+private final ArrayList<Room> rooms
+private final String address
+private double size
+private int floors
+private final int yearOfConstruction
+private double price
+private String application
+
+
+Meal
+------------
+private final ArrayList<String> courses
+private final ArrayList<Food> foods
+private final ArrayList<Drink> drinks
+private final String style
+private final boolean isHomeMade
+private double price
+
+
+

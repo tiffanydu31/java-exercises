@@ -1,0 +1,27 @@
+abstract Question
+--
+# String question
+# ArrayList<String> choices
+# double score
+--
++ void displayQuestion()
++ void displayAnswers()
++ boolean isCorrect(String[] a)
+
+
+MultipleChoice
+--
+- String answerAnswer
+--
+
+
+
+TrueFalse
+--
+- boolean correctAnswer
+
+
+
+Checkbox
+--
+- ArrayList<String> correctAnswers

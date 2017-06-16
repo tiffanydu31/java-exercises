@@ -1,0 +1,11 @@
+public field: can be accessed by anyone
+usage: used when declaring a method that interacts with users.
+
+private field: can only be access with in the declared class/method
+usage: used when declaring variables within a class that does not need to interact directly with users
+
+static field: can be accessed with out a specific instance of an object
+usage: used when a method or variable does not depend on an instance of an object
+
+final field: can only be set once during initial declration and cannot be changed
+usage: used when declaring an unchanging constant variable

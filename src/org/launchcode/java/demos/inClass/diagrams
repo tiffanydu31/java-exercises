@@ -1,0 +1,47 @@
+Computers
+----
+# String operatingSystem
+# String processor
+# double clockSpeed
+# int memory
+# double storage
+# double powerSupply
+# boolean isOn
+----
++ void powerOn()
++ void powerOff()
++ void compute()
+
+
+Laptop
+----
+- double screenSize
+- double batteryLife
+- Keyboard
+----
++ void close()
++ void powerSave()
++ void open()
++ void charge()
+
+
+Smartphone
+----
+- double screenSize
+- double batteryLife
+- Keyboard
+----
++ void lock
++ void unlock
++ void charge
++ void call(int phoneNumber)
++ void powerSave()
++ void takePhoto()
+
+
+
+Desktop
+----
+- ArrayList<Peripheral> peripherals
+- String cooling
+----

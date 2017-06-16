@@ -1,0 +1,37 @@
+Abstract Question
+----
+# String question
+# boolean result
+# int points
+# String type
+----
++ askQuestion()
++ printChoices
++ getResult()
+
+
+MultipleChoice extends Question
+----
+- ArrayList<String> answerChoices
+- int correctAnswer
+----
++ void printChoices()
++ void selectAnswer(int answer)
+
+
+
+Checkbox extends Question
+----
+- ArrayList<String> answerChoices
+- ArrayList<Integer> correctAnswers
+----
++ void printChoices()
++ void selectAnswer(ArrayList<Integer> answers)
+
+
+
+TrueOrFalse extends Question
+----
+- boolean correctAnswer
+----
++ void getAnswer(boolean value)

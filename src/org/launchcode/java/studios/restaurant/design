@@ -1,0 +1,33 @@
+MenuItem
+----------
+private String category
+private double price
+private String description
+private boolean isNew
+
+public MenuItem(String itemName, String itemCategory, double itemPrice)
+public String getName()
+public String getCategory()
+public double getPrice()
+public void setDescription(String itemDescription)
+public String getDescription()
+public void setIsNew(boolean itemIsNew)
+public boolean isNew()
+public void printItem()
+public printItem()
+
+
+Menu
+----------
+private final ArrayList<MenuItem> menu
+private Date lastUpdated
+
+public Menu()
+public Menu(ArrayList<MenuItem> menu)
+private void setLastUpdated()
+public Date getLastUpdated()
+public void addToMenu(MenuItem item)
+public void removeFromMenu(String m)
+public ArrayList<MenuItem> getMenu()
+public removeItem(String itemName)
+public printMenu()
